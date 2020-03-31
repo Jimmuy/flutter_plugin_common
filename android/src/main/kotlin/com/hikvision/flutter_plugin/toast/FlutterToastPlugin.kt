@@ -14,7 +14,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
 /** FluttertoastPlugin  */
-open class FlutterToastPlugin private constructor(private val ctx: Context) : MethodCallHandler {
+open class FlutterToastPlugin constructor(private val ctx: Context) : MethodCallHandler {
 
     companion object {
         /** Plugin registration.  */
